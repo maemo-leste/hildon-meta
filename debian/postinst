@@ -1,0 +1,11 @@
+#!/bin/sh
+
+useradd -m -s /bin/bash user
+gpasswd -a user video
+chown -R user:users /home/user
+
+rm -f /usr/share/themes/default
+ln -s /usr/share/themes/alpha/ /usr/share/themes/default
+
+mkdir -p /var/lib/dsme
+echo "USER" > /var/lib/dsme/saved_state

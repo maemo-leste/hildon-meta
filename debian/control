@@ -1,0 +1,38 @@
+Source: hildon-meta
+Section: misc
+Priority: optional
+Maintainer: Ivan J. <parazyd@dyne.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.2
+
+Package: hildon-meta
+Architecture: all
+Depends: ${shlibs:Depends},
+         xserver-xorg,
+		 maemo-launcher,
+		 mce,
+		 dsme,
+		 hildon-desktop,
+		 hildon-home,
+		 hildon-control-panel,
+		 hildon-theme-alpha,
+		 libdevlock-bin,
+		 libdevlock,
+		 osso-af-startup,
+		 osso-af-utils,
+		 osso-applet-display,
+		 osso-systemui,
+		 osso-xterm,
+		 osso-systemui-tklock,
+		 osso-systemui-powerkeymenu,
+		 osso-systemui-alarm
+Description: Metapackage for installing hildon-desktop and its dependencies.
+
+Package: hildon-meta-n900
+Architecture: all
+Section: n900
+Depends: ${shlibs:Depends},
+         hildon-meta,
+		 firmware-ti-connectivity,
+		 xserver-xorg-video-fbdev,
+		 ti-omap3-sgx
