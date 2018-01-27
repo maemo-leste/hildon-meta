@@ -20,12 +20,16 @@ Depends: ${shlibs:Depends},
          osso-af-startup,
          osso-af-utils,
          osso-applet-display,
+         osso-applet-notificationlight,
+         osso-applet-devicelock
          osso-systemui,
          osso-xterm,
          osso-systemui-tklock,
          osso-systemui-powerkeymenu,
          osso-systemui-alarm,
-         hildon-plugins-notify-sv
+         hildon-status-menu,
+         hildon-plugins-notify-sv,
+         upower
 Description: Metapackage for installing hildon-desktop and its dependencies.
 
 Package: hildon-meta-n900
@@ -35,7 +39,7 @@ Depends: ${shlibs:Depends},
          hildon-meta,
          firmware-ti-connectivity,
          xserver-xorg-video-fbdev,
-		 xserver-xorg-input-evdev,
+         xserver-xorg-input-evdev,
          ti-omap3-sgx
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N900.
