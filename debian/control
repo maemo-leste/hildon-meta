@@ -29,7 +29,8 @@ Depends: ${shlibs:Depends},
          osso-systemui-alarm,
          hildon-status-menu,
          hildon-plugins-notify-sv,
-         upower
+         upower,
+         status-menu-applet-profiles
 Description: Metapackage for installing hildon-desktop and its dependencies.
 
 Package: hildon-meta-n900
