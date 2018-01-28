@@ -1,8 +1,12 @@
 #!/bin/sh
 
 useradd -m -s /bin/bash user
-gpasswd -a user video
-gpasswd -a user sudo
+
+usergroups="audio video sudo"
+for grp in $usergroups; do
+	gpasswd -a user $grp
+done
+
 chown -R user:users /home/user
 
 rm -f /usr/share/themes/default
