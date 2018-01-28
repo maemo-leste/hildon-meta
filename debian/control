@@ -21,7 +21,7 @@ Depends: ${shlibs:Depends},
          osso-af-utils,
          osso-applet-display,
          osso-applet-notificationlight,
-         osso-applet-devicelock
+         osso-applet-devicelock,
          osso-systemui,
          osso-xterm,
          osso-systemui-tklock,
