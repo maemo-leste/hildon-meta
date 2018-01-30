@@ -45,3 +45,12 @@ Depends: ${shlibs:Depends},
          ti-omap3-sgx
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N900.
+
+Package: hildon-meta-droid4
+Architecture: all
+Section: droid4
+Depends: ${shlibs:Depends},
+         hildon-meta,
+         xserver-xorg-input-evdev
+Conflicts: xserver-xorg-input-libinput
+Description: Metapackage for installing hildon-desktop and its deps. Motorola Droid4.
