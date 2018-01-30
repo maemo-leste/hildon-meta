@@ -51,6 +51,6 @@ Architecture: all
 Section: droid4
 Depends: ${shlibs:Depends},
          hildon-meta,
-         xserver-xorg-input-evdev
-Conflicts: xserver-xorg-input-libinput
+         xserver-xorg-input-libinput
+Conflicts: xserver-xorg-input-evdev
 Description: Metapackage for installing hildon-desktop and its deps. Motorola Droid4.
