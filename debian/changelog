@@ -1,3 +1,9 @@
+hildon-meta (1.0) unstable; urgency=medium
+
+  * Remove epoch from package version.
+
+ -- Ivan J. <parazyd@dyne.org>  Thu, 01 Feb 2018 19:38:00 +0100
+
 hildon-meta (1:1.0) unstable; urgency=medium
 
   * Initial packaging
