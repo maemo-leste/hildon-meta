@@ -43,7 +43,8 @@ Depends: ${shlibs:Depends},
          firmware-ti-connectivity,
          xserver-xorg-video-fbdev,
          xserver-xorg-input-evdev,
-         ti-omap3-sgx
+         ti-omap3-sgx,
+         status-area-applet-battery,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N900.
 
