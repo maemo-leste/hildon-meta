@@ -33,7 +33,6 @@ Depends: ${shlibs:Depends},
          status-menu-applet-profiles,
          gtk2-engines-pixbuf,
          clockd,
-         connui-wlan,
 Conflicts:
          elogind,
 Description: Metapackage for installing hildon-desktop and its dependencies.
