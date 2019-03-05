@@ -46,7 +46,7 @@ Section: n900
 Depends: ${shlibs:Depends},
          hildon-meta,
          firmware-ti-connectivity,
-         xserver-xorg-video-fbdev,
+         xserver-xorg-video-pvrsgx,
          xserver-xorg-input-evdev,
          ti-omap3-sgx,
          status-area-applet-battery,
