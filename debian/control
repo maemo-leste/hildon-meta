@@ -2,8 +2,8 @@ Source: hildon-meta
 Section: misc
 Priority: optional
 Maintainer: Ivan J. <parazyd@dyne.org>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.7.2
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.3.0
 
 Package: hildon-meta
 Architecture: all
