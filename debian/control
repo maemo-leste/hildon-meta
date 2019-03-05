@@ -36,8 +36,7 @@ Depends: ${shlibs:Depends},
          clockd,
          ke-recv,
          hildon-status-bar-usb,
-Conflicts:
-         elogind,
+Conflicts: elogind
 Description: Metapackage for installing hildon-desktop and its dependencies.
 
 Package: hildon-meta-n900
@@ -61,7 +60,7 @@ Depends: ${shlibs:Depends},
          hildon-meta,
          firmware-ti-connectivity,
          xserver-xorg-video-omap,
-         xserver-xorg-input-evdev
+         xserver-xorg-input-evdev,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N950.
 
@@ -72,7 +71,7 @@ Depends: ${shlibs:Depends},
          hildon-meta,
          firmware-ti-connectivity,
          xserver-xorg-video-omap,
-         xserver-xorg-input-evdev
+         xserver-xorg-input-evdev,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N9.
 
@@ -82,6 +81,6 @@ Section: droid4
 Depends: ${shlibs:Depends},
          hildon-meta,
          firmware-ti-connectivity,
-         xserver-xorg-input-evdev
+         xserver-xorg-input-evdev,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Motorola Droid4.
