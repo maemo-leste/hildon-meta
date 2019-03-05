@@ -7,8 +7,7 @@ Standards-Version: 4.3.0
 
 Package: hildon-meta
 Architecture: all
-Depends: ${shlibs:Depends},
-         xserver-xorg,
+Depends: xserver-xorg,
          maemo-launcher,
          mce,
          dsme,
@@ -42,8 +41,7 @@ Description: Metapackage for installing hildon-desktop and its dependencies.
 Package: hildon-meta-n900
 Architecture: all
 Section: n900
-Depends: ${shlibs:Depends},
-         hildon-meta,
+Depends: hildon-meta,
          firmware-ti-connectivity,
          xserver-xorg-video-pvrsgx,
          xserver-xorg-input-evdev,
@@ -56,8 +54,7 @@ Description: Metapackage for installing hildon-desktop and its deps. Nokia N900.
 Package: hildon-meta-n950
 Architecture: all
 Section: n950
-Depends: ${shlibs:Depends},
-         hildon-meta,
+Depends: hildon-meta,
          firmware-ti-connectivity,
          xserver-xorg-video-omap,
          xserver-xorg-input-evdev,
@@ -67,8 +64,7 @@ Description: Metapackage for installing hildon-desktop and its deps. Nokia N950.
 Package: hildon-meta-n9
 Architecture: all
 Section: n9
-Depends: ${shlibs:Depends},
-         hildon-meta,
+Depends: hildon-meta,
          firmware-ti-connectivity,
          xserver-xorg-video-omap,
          xserver-xorg-input-evdev,
@@ -78,8 +74,7 @@ Description: Metapackage for installing hildon-desktop and its deps. Nokia N9.
 Package: hildon-meta-droid4
 Architecture: all
 Section: droid4
-Depends: ${shlibs:Depends},
-         hildon-meta,
+Depends: hildon-meta,
          firmware-ti-connectivity,
          xserver-xorg-input-evdev,
 Conflicts: xserver-xorg-input-libinput
