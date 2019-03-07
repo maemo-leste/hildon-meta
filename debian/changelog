@@ -1,3 +1,9 @@
+hildon-meta (1.1) unstable; urgency=medium
+
+  * Update hildon-meta-n900 deps
+
+ -- Arthur Demchenkov <spinal.by@gmail.com>  Tue, 05 Mar 2019 20:44:27 +0300
+
 hildon-meta (1.0) unstable; urgency=medium
 
   * Remove epoch from package version.

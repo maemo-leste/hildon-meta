@@ -1,19 +1,24 @@
 #!/bin/sh
+USER=user
+GROUPS="audio video sudo"
 
-useradd -m -s /bin/bash user
+if ! id -u $USER 2>/dev/null ; then
+  echo "Adding user '$USER'"
+  useradd -m -s /bin/bash $USER
 
-usergroups="audio video sudo"
-for grp in $usergroups; do
-	gpasswd -a user $grp
-done
+  for group in $GROUPS; do
+          gpasswd -a $USER $group
+  done
+fi
 
-chown -R user:users /home/user
+ln -svnf alpha /usr/share/themes/default
 
-rm -f /usr/share/themes/default
-ln -s /usr/share/themes/alpha/ /usr/share/themes/default
+install -d /var/lib/dsme
+[ ! -f /var/lib/dsme/saved_state ] && echo "USER" > /var/lib/dsme/saved_state
 
-mkdir -p /var/lib/dsme
-echo "USER" > /var/lib/dsme/saved_state
-
-mkdir -p /etc/sudoers.d
-echo "user    ALL=(ALL:ALL) NOPASSWD: ALL" > /etc/sudoers.d/maemo
+if [ ! -f /etc/sudoers.d/maemo ]; then
+  echo "Adding maemo sudoers file"
+  install -d /etc/sudoers.d
+  echo "$USER    ALL=(ALL:ALL) NOPASSWD: ALL" > /etc/sudoers.d/maemo
+  chmod 0440 /etc/sudoers.d/maemo
+fi
