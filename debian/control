@@ -75,6 +75,7 @@ Package: hildon-meta-droid4
 Architecture: all
 Section: droid4
 Depends: hildon-meta,
+         linux-image-droid4,
          firmware-ti-connectivity,
          xserver-xorg-input-evdev,
 Conflicts: xserver-xorg-input-libinput
