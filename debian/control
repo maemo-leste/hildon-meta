@@ -80,3 +80,11 @@ Depends: hildon-meta,
          xserver-xorg-input-evdev,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Motorola Droid4.
+
+Package: hildon-meta-pinephone
+Architecture: all
+Section: pinephone
+Depends: hildon-meta,
+         xserver-xorg-input-evdev,
+Conflicts: xserver-xorg-input-libinput
+Description: Metapackage for installing hildon-desktop and its deps. Pinephone.
