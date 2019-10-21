@@ -35,6 +35,7 @@ Depends: xserver-xorg,
          clockd,
          ke-recv,
          hildon-status-bar-usb,
+         statusbar-alarm,
 Conflicts: elogind
 Description: Metapackage for installing hildon-desktop and its dependencies.
 
