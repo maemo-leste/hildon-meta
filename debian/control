@@ -8,6 +8,7 @@ Standards-Version: 4.3.0
 Package: hildon-meta
 Architecture: all
 Depends: xserver-xorg,
+         hildon-base,
          maemo-launcher,
          mce,
          dsme,
