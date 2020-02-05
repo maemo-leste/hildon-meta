@@ -1,3 +1,10 @@
+hildon-meta (1.4.1) unstable; urgency=medium
+
+  * Make hildon-meta-droid4 depend on firmware-ti-bluetooth
+    Closes: https://github.com/maemo-leste/bugtracker/issues/296
+
+ -- Arthur Demchenkov <spinal.by@gmail.com>  Wed, 05 Feb 2020 19:59:16 +0300
+
 hildon-meta (1.4) unstable; urgency=medium
 
   * Remove postinst and add hildon-base dependency
