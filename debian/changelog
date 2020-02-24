@@ -1,3 +1,9 @@
+hildon-meta (1.5) unstable; urgency=medium
+
+  * Add maemo-keyring as a dependency
+
+ -- Ivan J. <parazyd@dyne.org>  Mon, 24 Feb 2020 11:45:42 +0100
+
 hildon-meta (1.4.1) unstable; urgency=medium
 
   * Make hildon-meta-droid4 depend on firmware-ti-bluetooth

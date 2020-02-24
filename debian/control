@@ -8,6 +8,7 @@ Standards-Version: 4.3.0
 Package: hildon-meta
 Architecture: all
 Depends: xserver-xorg,
+         maemo-keyring,
          hildon-base,
          maemo-launcher,
          mce,
@@ -40,7 +41,6 @@ Depends: xserver-xorg,
          osso-pdf-viewer,
          hildon-application-manager,
          alarmd,
-Conflicts: elogind
 Description: Metapackage for installing hildon-desktop and its dependencies.
 
 Package: hildon-meta-n900
