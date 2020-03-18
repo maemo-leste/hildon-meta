@@ -86,7 +86,6 @@ Depends: hildon-meta,
          firmware-ti-bluetooth,
          xserver-xorg-input-evdev,
          xserver-xorg-video-omap,
-         libdri2-1,
          pvr-omap4,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Motorola Droid4.
