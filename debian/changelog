@@ -1,3 +1,10 @@
+hildon-meta (1.5.2) unstable; urgency=medium
+
+  * Add status-area-applet-battery and osso-applet-cplanguageregional
+    to main hildon-meta.
+
+ -- Ivan J. <parazyd@dyne.org>  Mon, 23 Mar 2020 15:25:33 +0100
+
 hildon-meta (1.5.1) unstable; urgency=medium
 
   * Add needed PowerVR dependencies to hildon-meta-droid4.
