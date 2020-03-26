@@ -1,3 +1,9 @@
+hildon-meta (1.5.3) unstable; urgency=medium
+
+  * Add Raspberry Pi metapackage.
+
+ -- Ivan J. <parazyd@dyne.org>  Thu, 26 Mar 2020 11:21:52 +0100
+
 hildon-meta (1.5.2) unstable; urgency=medium
 
   * Add status-area-applet-battery and osso-applet-cplanguageregional
