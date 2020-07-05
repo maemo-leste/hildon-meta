@@ -8,53 +8,53 @@ Standards-Version: 4.3.0
 Package: hildon-meta
 Architecture: all
 Depends: xserver-xorg,
-         maemo-keyring,
-         hildon-base,
-         maemo-launcher,
-         mce,
-         dsme,
-         hildon-desktop,
-         hildon-home,
-         hildon-control-panel,
-         hildon-theme-alpha,
-         hildon-control-panel-personalisation,
-         libdevlock-bin,
-         osso-af-startup,
-         osso-af-utils,
-         osso-applet-display,
-         osso-applet-notificationlight,
-         osso-applet-devicelock,
-		 osso-applet-cplanguageregional,
-         osso-systemui,
-         osso-xterm,
-         osso-systemui-tklock,
-         osso-systemui-powerkeymenu,
-         osso-systemui-alarm,
-         osso-systemui-modechange,
-         hildon-status-menu,
-         hildon-plugins-notify-sv,
-         upower,
-         status-menu-applet-profiles,
-         status-area-applet-battery,
-         gtk2-engines-pixbuf,
-         clockd,
-         ke-recv,
-         hildon-status-bar-usb,
-         statusbar-alarm,
-         osso-pdf-viewer,
-         hildon-application-manager,
-         alarmd,
+ maemo-keyring,
+ hildon-base,
+ maemo-launcher,
+ mce,
+ dsme,
+ hildon-desktop,
+ hildon-home,
+ hildon-control-panel,
+ hildon-theme-alpha,
+ hildon-control-panel-personalisation,
+ libdevlock-bin,
+ osso-af-startup,
+ osso-af-utils,
+ osso-applet-display,
+ osso-applet-notificationlight,
+ osso-applet-devicelock,
+ osso-applet-cplanguageregional,
+ osso-systemui,
+ osso-xterm,
+ osso-systemui-tklock,
+ osso-systemui-powerkeymenu,
+ osso-systemui-alarm,
+ osso-systemui-modechange,
+ hildon-status-menu,
+ hildon-plugins-notify-sv,
+ upower,
+ status-menu-applet-profiles,
+ status-area-applet-battery,
+ gtk2-engines-pixbuf,
+ clockd,
+ ke-recv,
+ hildon-status-bar-usb,
+ statusbar-alarm,
+ osso-pdf-viewer,
+ hildon-application-manager,
+ alarmd,
 Description: Metapackage for installing hildon-desktop and its dependencies.
 
 Package: hildon-meta-n900
 Architecture: all
 Section: n900
 Depends: hildon-meta,
-         firmware-ti-connectivity,
-         xserver-xorg-video-pvrsgx,
-         xserver-xorg-input-evdev,
-         ti-omap3-sgx,
-         linux-image-n900,
+ firmware-ti-connectivity,
+ xserver-xorg-video-pvrsgx,
+ xserver-xorg-input-evdev,
+ ti-omap3-sgx,
+ linux-image-n900,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N900.
 
@@ -62,9 +62,9 @@ Package: hildon-meta-n950
 Architecture: all
 Section: n950
 Depends: hildon-meta,
-         firmware-ti-connectivity,
-         xserver-xorg-video-omap,
-         xserver-xorg-input-evdev,
+ firmware-ti-connectivity,
+ xserver-xorg-video-omap,
+ xserver-xorg-input-evdev,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N950.
 
@@ -72,9 +72,9 @@ Package: hildon-meta-n9
 Architecture: all
 Section: n9
 Depends: hildon-meta,
-         firmware-ti-connectivity,
-         xserver-xorg-video-omap,
-         xserver-xorg-input-evdev,
+ firmware-ti-connectivity,
+ xserver-xorg-video-omap,
+ xserver-xorg-input-evdev,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N9.
 
@@ -82,14 +82,14 @@ Package: hildon-meta-droid4
 Architecture: all
 Section: droid4
 Depends: hildon-meta,
-         linux-image-droid4,
-         firmware-ti-connectivity,
-         firmware-ti-bluetooth,
-         xserver-xorg-input-evdev,
-         xserver-xorg-video-omap,
-         droid4-powermanagement,
-         droid4-battery-calibration,
-         pvr-omap4,
+ linux-image-droid4,
+ firmware-ti-connectivity,
+ firmware-ti-bluetooth,
+ xserver-xorg-input-evdev,
+ xserver-xorg-video-omap,
+ droid4-powermanagement,
+ droid4-battery-calibration,
+ pvr-omap4,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Motorola Droid4.
 
@@ -97,10 +97,19 @@ Package: hildon-meta-pinephone
 Architecture: all
 Section: pinephone
 Depends: hildon-meta,
-         linux-image-pine64,
-         xserver-xorg-input-evdev,
+ linux-image-pine64,
+ xserver-xorg-input-evdev,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Pinephone.
+
+Package: hildon-meta-pinetab
+Architecture: all
+Section: pinephone
+Depends: hildon-meta,
+ linux-image-pine64,
+ xserver-xorg-input-evdev,
+Conflicts: xserver-xorg-input-libinput
+Description: Metapackage for installing hildon-desktop and its deps. Pinetab.
 
 Package: hildon-meta-raspberrypi
 Architecture: all
