@@ -44,6 +44,7 @@ Depends: xserver-xorg,
  osso-pdf-viewer,
  hildon-application-manager,
  alarmd,
+ leste-config-common,
 Description: Metapackage for installing hildon-desktop and its dependencies.
 
 Package: hildon-meta-n900
@@ -55,6 +56,7 @@ Depends: hildon-meta,
  xserver-xorg-input-evdev,
  ti-omap3-sgx,
  linux-image-n900,
+ leste-config-n900,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N900.
 
@@ -83,6 +85,7 @@ Architecture: all
 Section: droid4
 Depends: hildon-meta,
  linux-image-droid4,
+ leste-config-droid4,
  firmware-ti-connectivity,
  firmware-ti-bluetooth,
  xserver-xorg-input-evdev,
@@ -98,6 +101,7 @@ Architecture: all
 Section: pinephone
 Depends: hildon-meta,
  linux-image-pine64,
+ leste-config-pinephone,
  xserver-xorg-input-evdev,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Pinephone.
@@ -107,6 +111,7 @@ Architecture: all
 Section: pinephone
 Depends: hildon-meta,
  linux-image-pine64,
+ leste-config-pinetab,
  xserver-xorg-input-evdev,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Pinetab.
