@@ -45,6 +45,8 @@ Depends: xserver-xorg,
  hildon-application-manager,
  alarmd,
  leste-config-common,
+ hildon-connectivity-base,
+ hildon-connectivity-wlan,
 Description: Metapackage for installing hildon-desktop and its dependencies.
 
 Package: hildon-meta-n900
