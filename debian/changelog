@@ -1,3 +1,10 @@
+hildon-meta (1.7.0) unstable; urgency=medium
+
+  * Add hildon-connectivity-meta dependency
+  * Add mameo-input-sounds and maemo-audio dependencies.
+
+ -- Ivan J. <parazyd@dyne.org>  Thu, 09 Jul 2020 12:56:02 +0200
+
 hildon-meta (1.6.0) unstable; urgency=medium
 
   * Add leste-config package dependencies.
