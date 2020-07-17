@@ -105,6 +105,7 @@ Architecture: all
 Section: pinephone
 Depends: hildon-meta,
  linux-image-pine64,
+ pine64-uboot,
  leste-config-pinephone,
  xserver-xorg-input-evdev,
 Conflicts: xserver-xorg-input-libinput
