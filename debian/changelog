@@ -1,3 +1,9 @@
+hildon-meta (1.8.0) unstable; urgency=medium
+
+  * Add iio-sensor-proxy as dependency for the droid4 meta package
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sun, 06 Sep 2020 21:03:37 +0200
+
 hildon-meta (1.7.0) unstable; urgency=medium
 
   * Add hildon-connectivity-meta dependency
