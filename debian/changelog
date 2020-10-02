@@ -1,3 +1,9 @@
+hildon-meta (1.9.0) unstable; urgency=medium
+
+  * Add hildon-desktop-rotation-support to hildon-meta
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 02 Oct 2020 13:37:02 +0200
+
 hildon-meta (1.8.0) unstable; urgency=medium
 
   * Add iio-sensor-proxy as dependency for the droid4 meta package
