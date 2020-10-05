@@ -1,3 +1,9 @@
+hildon-meta (1.10.0) unstable; urgency=medium
+
+  * Add qalendar dependency
+
+ -- Ivan J. <parazyd@dyne.org>  Mon, 05 Oct 2020 11:14:29 +0200
+
 hildon-meta (1.9.0) unstable; urgency=medium
 
   * Add hildon-desktop-rotation-support to hildon-meta
