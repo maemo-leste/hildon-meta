@@ -1,3 +1,9 @@
+hildon-meta (1.11.0) unstable; urgency=medium
+
+  * Add iio-sensor-proxy to Pinephone
+
+ -- Ivan J. <parazyd@dyne.org>  Wed, 07 Oct 2020 22:24:50 +0200
+
 hildon-meta (1.10.0) unstable; urgency=medium
 
   * Add qalendar dependency
