@@ -112,6 +112,7 @@ Depends: hildon-meta,
  pine64-uboot,
  leste-config-pinephone,
  xserver-xorg-input-evdev,
+ iio-sensor-proxy,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Pinephone.
 
