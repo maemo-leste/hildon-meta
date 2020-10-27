@@ -1,3 +1,9 @@
+hildon-meta (1.13.1) unstable; urgency=medium
+
+  * Add libcmtspeechdata dependency for Nokia N900.
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 27 Oct 2020 15:17:24 +0100
+
 hildon-meta (1.12.1) unstable; urgency=medium
 
   * Add dependency for droid4-wlanconfig in Droid4 and Bionic.
