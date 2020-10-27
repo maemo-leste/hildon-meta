@@ -64,6 +64,7 @@ Depends: hildon-meta,
  ti-omap3-sgx,
  linux-image-n900,
  leste-config-n900,
+ libcmtspeechdata,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N900.
 
