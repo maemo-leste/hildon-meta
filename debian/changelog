@@ -1,3 +1,9 @@
+hildon-meta (1.14.1) unstable; urgency=medium
+
+  * Add clock-ui dependency
+
+ -- Ivan J. <parazyd@dyne.org>  Sun, 27 Dec 2020 22:53:36 +0100
+
 hildon-meta (1.13.1) unstable; urgency=medium
 
   * Add libcmtspeechdata dependency for Nokia N900.
