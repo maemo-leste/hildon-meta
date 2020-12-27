@@ -47,7 +47,7 @@ Depends: xserver-xorg,
  qalendar,
  hildon-application-manager,
  alarmd,
- clock-ui
+ clock-ui,
  maemo-input-sounds,
  maemo-audio,
  leste-config-common,
