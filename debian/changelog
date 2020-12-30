@@ -1,3 +1,9 @@
+hildon-meta (1.15.1) unstable; urgency=medium
+
+  * Add osso-calculator dependency.
+ 
+ -- Ivan J. <parazyd@dyne.org>  Wed, 30 Dec 2020 10:36:31 +0100
+
 hildon-meta (1.14.1) unstable; urgency=medium
 
   * Add clock-ui dependency
