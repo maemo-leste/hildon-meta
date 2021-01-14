@@ -95,7 +95,7 @@ Architecture: all
 Section: droid4
 Depends: hildon-meta,
  linux-image-droid4,
- leste-config-droid4,
+ leste-config-mapphone,
  firmware-ti-connectivity,
  firmware-ti-bluetooth,
  xserver-xorg-input-evdev,
@@ -113,7 +113,7 @@ Architecture: all
 Section: bionic
 Depends: hildon-meta,
  linux-image-droid4,
- leste-config-bionic,
+ leste-config-mapphone,
  firmware-ti-connectivity,
  firmware-ti-bluetooth,
  xserver-xorg-input-evdev,
