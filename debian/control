@@ -148,6 +148,15 @@ Depends: hildon-meta,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Pinetab.
 
+Package: hildon-meta-pocophone-f1
+Architecture: all
+Section: pocophone-f1
+Depends: hildon-meta,
+ leste-config-pocophone-f1,
+ xserver-xorg-input-evdev,
+Conflicts: xserver-xorg-input-libinput
+Description: Metapackage for installing hildon-desktop and its deps. Pocophone F1.
+
 Package: hildon-meta-raspberrypi
 Architecture: all
 Section: raspberrypi
