@@ -98,14 +98,14 @@ Depends: hildon-meta,
  leste-config-mapphone,
  firmware-ti-connectivity,
  firmware-ti-bluetooth,
- xserver-xorg-input-evdev,
+ xserver-xorg-input-libinput,
  xserver-xorg-video-omap,
  droid4-powermanagement,
  droid4-wlanconfig,
  droid4-battery-calibration,
  pvr-omap4,
  iio-sensor-proxy,
-Conflicts: xserver-xorg-input-libinput
+Conflicts: 
 Description: Metapackage for installing hildon-desktop and its deps. Motorola Droid4.
 
 Package: hildon-meta-bionic
@@ -116,14 +116,14 @@ Depends: hildon-meta,
  leste-config-mapphone,
  firmware-ti-connectivity,
  firmware-ti-bluetooth,
- xserver-xorg-input-evdev,
+ xserver-xorg-input-libinput,
  xserver-xorg-video-omap,
  droid4-powermanagement,
  droid4-wlanconfig,
  droid4-battery-calibration,
  pvr-omap4,
  iio-sensor-proxy,
-Conflicts: xserver-xorg-input-libinput
+Conflicts:
 Description: Metapackage for installing hildon-desktop and its deps. Motorola Droid4.
 
 Package: hildon-meta-pinephone
