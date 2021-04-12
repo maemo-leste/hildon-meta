@@ -67,7 +67,6 @@ Depends: hildon-meta,
  linux-image-n900,
  leste-config-n900,
  libcmtspeechdata,
-Conflicts:
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N900.
 
 Package: hildon-meta-n950
@@ -105,7 +104,6 @@ Depends: hildon-meta,
  droid4-battery-calibration,
  pvr-omap4,
  iio-sensor-proxy,
-Conflicts:
 Description: Metapackage for installing hildon-desktop and its deps. Motorola Droid4.
 
 Package: hildon-meta-bionic
@@ -123,7 +121,6 @@ Depends: hildon-meta,
  droid4-battery-calibration,
  pvr-omap4,
  iio-sensor-proxy,
-Conflicts:
 Description: Metapackage for installing hildon-desktop and its deps. Motorola Droid4.
 
 Package: hildon-meta-pinephone
@@ -135,7 +132,6 @@ Depends: hildon-meta,
  leste-config-pinephone,
  xserver-xorg-input-evdev,
  iio-sensor-proxy,
-Conflicts:
 Description: Metapackage for installing hildon-desktop and its deps. Pinephone.
 
 Package: hildon-meta-pinetab
@@ -145,7 +141,6 @@ Depends: hildon-meta,
  linux-image-pine64,
  leste-config-pinetab,
  xserver-xorg-input-evdev,
-Conflicts:
 Description: Metapackage for installing hildon-desktop and its deps. Pinetab.
 
 Package: hildon-meta-pocophone-f1
