@@ -1,3 +1,13 @@
+hildon-meta (1.17) unstable; urgency=medium
+
+  * Remove empty Conflicts from debian/control.
+  * n900, pinephone, pinetab: dont conflict with the libinput xorg driver
+  * Mapphones: switch to libinput
+  * Add Pocophone F1 hildon-meta package
+  * Add GPL-3 license.
+
+ -- Ivan J. <parazyd@dyne.org>  Sat, 01 May 2021 18:23:54 +0200
+
 hildon-meta (1.16) unstable; urgency=medium
 
   * Update leste-config deps for droid4 and bionic.
