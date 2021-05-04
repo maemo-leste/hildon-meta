@@ -1,3 +1,9 @@
+hildon-meta (1.18) unstable; urgency=medium
+
+  * Add gps-nokia-n900 package for N900.
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 04 May 2021 03:03:19 +0200
+
 hildon-meta (1.17) unstable; urgency=medium
 
   * Remove empty Conflicts from debian/control.
