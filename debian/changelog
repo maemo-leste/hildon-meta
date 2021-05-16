@@ -1,3 +1,9 @@
+hildon-meta (1.19) unstable; urgency=medium
+
+  * Add kexecboot config packages for Droid4 and Bionic.
+
+ -- Ivan J. <parazyd@dyne.org>  Sun, 16 May 2021 12:31:51 +0200
+
 hildon-meta (1.18) unstable; urgency=medium
 
   * Add gps-nokia-n900 package for N900.
