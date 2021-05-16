@@ -2,7 +2,7 @@ Source: hildon-meta
 Section: misc
 Priority: optional
 Maintainer: Ivan J. <parazyd@dyne.org>
-Build-Depends: debhelper (>= 10)
+Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.3.0
 
 Package: hildon-meta
