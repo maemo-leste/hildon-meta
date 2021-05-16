@@ -91,6 +91,7 @@ Depends:
  firmware-ti-connectivity,
  xserver-xorg-video-omap,
  xserver-xorg-input-evdev,
+ fbkeyboard,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N9.
 
@@ -130,6 +131,7 @@ Depends:
  droid4-powermanagement,
  droid4-wlanconfig,
  droid4-battery-calibration,
+ fbkeyboard,
 Description: Metapackage for installing hildon-desktop and its deps. Motorola Droid4.
 
 Package: hildon-meta-pinephone
@@ -142,6 +144,7 @@ Depends:
  pine64-uboot,
  xserver-xorg-input-evdev,
  iio-sensor-proxy,
+ fbkeyboard,
 Description: Metapackage for installing hildon-desktop and its deps. Pinephone.
 
 Package: hildon-meta-pinetab
@@ -152,6 +155,7 @@ Depends:
  linux-image-pine64,
  leste-config-pinetab,
  xserver-xorg-input-evdev,
+ fbkeyboard,
 Description: Metapackage for installing hildon-desktop and its deps. Pinetab.
 
 Package: hildon-meta-pocophone-f1
@@ -161,6 +165,7 @@ Depends:
  hildon-meta,
  leste-config-pocophone-f1,
  xserver-xorg-input-evdev,
+ fbkeyboard,
 Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Pocophone F1.
 
