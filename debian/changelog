@@ -1,3 +1,11 @@
+hildon-meta (1.20) unstable; urgency=medium
+
+  * Add fbkeyboard dependency for devices without a hardware keyboard.
+  * Sort and clean dependencies.
+  * Port to debhelper 12.
+
+ -- Ivan J. <parazyd@dyne.org>  Sun, 16 May 2021 12:50:22 +0200
+
 hildon-meta (1.19) unstable; urgency=medium
 
   * Add kexecboot config packages for Droid4 and Bionic.
