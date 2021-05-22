@@ -69,6 +69,7 @@ Depends:
  xserver-xorg-input-evdev,
  ti-omap3-sgx,
  gps-nokia-n900,
+ iio-sensor-proxy,
  libcmtspeechdata,
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N900.
 
