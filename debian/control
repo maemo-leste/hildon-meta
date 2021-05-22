@@ -133,7 +133,7 @@ Depends:
  droid4-wlanconfig,
  droid4-battery-calibration,
  fbkeyboard,
-Description: Metapackage for installing hildon-desktop and its deps. Motorola Droid4.
+Description: Metapackage for installing hildon-desktop and its deps. Motorola Bionic.
 
 Package: hildon-meta-pinephone
 Architecture: all
