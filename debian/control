@@ -28,6 +28,7 @@ Depends:
  hildon-home,
  hildon-control-panel,
  hildon-theme-alpha,
+ ui-fonts,
  hildon-control-panel-personalisation,
  hildon-application-manager,
  hildon-status-menu,
