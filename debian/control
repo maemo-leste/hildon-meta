@@ -23,8 +23,7 @@ Depends:
  clock-ui,
  ke-recv,
  gtk2-engines-pixbuf,
- hildon-desktop,
- hildon-desktop-rotation-support,
+ hildon-desktop (>= 1:2.2.182),
  hildon-home,
  hildon-control-panel,
  hildon-theme-alpha,
@@ -55,7 +54,13 @@ Depends:
  hildon-status-bar-usb,
  statusbar-alarm,
  osso-pdf-viewer,
- qalendar,
+ qalendar
+Provides:
+ hildon-desktop-rotation-support
+Conflicts:
+ hildon-desktop-rotation-support
+Replaces:
+ hildon-desktop-rotation-support
 Description: Metapackage for installing hildon-desktop and its dependencies.
 
 Package: hildon-meta-n900
