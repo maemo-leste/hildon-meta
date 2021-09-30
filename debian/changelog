@@ -1,3 +1,9 @@
+hildon-meta (1.23) unstable; urgency=medium
+
+  * Add hildon-thumbnail dep.
+
+ -- Ivan J. <parazyd@dyne.org>  Thu, 30 Sep 2021 18:10:27 +0200
+
 hildon-meta (1.22) unstable; urgency=medium
 
   * Remove dependency to hildon-desktop-rotation-support
