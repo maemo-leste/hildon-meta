@@ -25,6 +25,7 @@ Depends:
  gtk2-engines-pixbuf,
  hildon-desktop (>= 1:2.2.182),
  hildon-home,
+ hildon-thumbnail,
  hildon-control-panel,
  hildon-theme-alpha,
  ui-fonts,
