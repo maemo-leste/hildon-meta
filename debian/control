@@ -55,7 +55,8 @@ Depends:
  hildon-status-bar-usb,
  statusbar-alarm,
  osso-pdf-viewer,
- qalendar
+ qalendar,
+ desktop-file-utils,
 Provides:
  hildon-desktop-rotation-support
 Conflicts:
