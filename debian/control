@@ -57,6 +57,7 @@ Depends:
  osso-pdf-viewer,
  qalendar,
  desktop-file-utils,
+ profilesx,
 Provides:
  hildon-desktop-rotation-support
 Conflicts:
