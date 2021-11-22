@@ -1,3 +1,9 @@
+hildon-meta (1.25) unstable; urgency=medium
+
+  * droid4/bionic: Remove pvr-omap4 dependency.
+
+ -- Ivan J. <parazyd@dyne.org>  Mon, 22 Nov 2021 20:11:15 +0100
+
 hildon-meta (1.24) unstable; urgency=medium
 
   * Add profilesx dependency to main metapackage.
