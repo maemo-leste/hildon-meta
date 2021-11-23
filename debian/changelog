@@ -1,3 +1,9 @@
+hildon-meta (1.26) unstable; urgency=medium
+
+  * droid4/bionic: Add sgx-ddk-um dependencies.
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 23 Nov 2021 09:59:28 +0100
+
 hildon-meta (1.25) unstable; urgency=medium
 
   * droid4/bionic: Remove pvr-omap4 dependency.
