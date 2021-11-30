@@ -1,6 +1,6 @@
 Source: hildon-meta
 Section: misc
-Priority: optional
+Priority: important
 Maintainer: Ivan J. <parazyd@dyne.org>
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.3.0
@@ -106,6 +106,7 @@ Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N9.
 
 Package: hildon-meta-droid4
+Priority: important
 Architecture: all
 Section: droid4
 Depends:
