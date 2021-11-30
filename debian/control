@@ -123,6 +123,8 @@ Depends:
  sgx-ddk-um-tools,
  libegl-mesa0 (>= 21.2.5),
  libegl1 (>= 1.3.4),
+ libgles1 (>= 1.3.4),
+ libgles2 (>= 1.3.4),
  iio-sensor-proxy,
  droid4-powermanagement,
  droid4-wlanconfig,
