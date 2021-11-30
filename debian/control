@@ -1,12 +1,11 @@
 Source: hildon-meta
 Section: misc
-Priority: standard
+Priority: optional
 Maintainer: Ivan J. <parazyd@dyne.org>
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.3.0
 
 Package: hildon-meta
-Priority: standard
 Architecture: all
 Depends:
  maemo-keyring,
@@ -68,7 +67,6 @@ Replaces:
 Description: Metapackage for installing hildon-desktop and its dependencies.
 
 Package: hildon-meta-n900
-Priority: standard
 Architecture: all
 Section: n900
 Depends:
@@ -85,7 +83,6 @@ Depends:
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N900.
 
 Package: hildon-meta-n950
-Priority: standard
 Architecture: all
 Section: n950
 Depends:
@@ -97,7 +94,6 @@ Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N950.
 
 Package: hildon-meta-n9
-Priority: standard
 Architecture: all
 Section: n9
 Depends:
@@ -110,7 +106,6 @@ Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N9.
 
 Package: hildon-meta-droid4
-Priority: standard
 Architecture: all
 Section: droid4
 Depends:
@@ -134,7 +129,6 @@ Depends:
 Description: Metapackage for installing hildon-desktop and its deps. Motorola Droid4.
 
 Package: hildon-meta-bionic
-Priority: standard
 Architecture: all
 Section: bionic
 Depends:
@@ -156,7 +150,6 @@ Depends:
 Description: Metapackage for installing hildon-desktop and its deps. Motorola Bionic.
 
 Package: hildon-meta-pinephone
-Priority: standard
 Architecture: all
 Section: pinephone
 Depends:
@@ -170,7 +163,6 @@ Depends:
 Description: Metapackage for installing hildon-desktop and its deps. Pinephone.
 
 Package: hildon-meta-pinetab
-Priority: standard
 Architecture: all
 Section: pinephone
 Depends:
@@ -182,7 +174,6 @@ Depends:
 Description: Metapackage for installing hildon-desktop and its deps. Pinetab.
 
 Package: hildon-meta-pocophone-f1
-Priority: standard
 Architecture: all
 Section: pocophone-f1
 Depends:
@@ -194,7 +185,6 @@ Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Pocophone F1.
 
 Package: hildon-meta-raspberrypi
-Priority: standard
 Architecture: all
 Section: raspberrypi
 Depends:
