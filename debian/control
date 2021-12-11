@@ -7,6 +7,8 @@ Standards-Version: 4.3.0
 
 Package: hildon-meta
 Architecture: all
+Priority: important
+Essential: yes
 Depends:
  maemo-keyring,
  xserver-xorg,
@@ -106,7 +108,6 @@ Conflicts: xserver-xorg-input-libinput
 Description: Metapackage for installing hildon-desktop and its deps. Nokia N9.
 
 Package: hildon-meta-droid4
-Priority: important
 Architecture: all
 Section: droid4
 Depends:
