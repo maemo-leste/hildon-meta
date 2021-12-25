@@ -1,3 +1,10 @@
+hildon-meta (1.29) unstable; urgency=medium
+
+  * Add droid3
+  * Hopefully fixup bionic sgx ddk 1.17 config
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 25 Dec 2021 13:40:31 +0100
+
 hildon-meta (1.28) unstable; urgency=medium
 
   * Mark hildon-meta as essential
