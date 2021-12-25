@@ -132,6 +132,31 @@ Depends:
  droid4-battery-calibration,
 Description: Metapackage for installing hildon-desktop and its deps. Motorola Droid4.
 
+Package: hildon-meta-droid3
+Architecture: all
+Section: droid3
+Depends:
+ hildon-meta,
+ linux-image-droid4,
+ leste-config-mapphone,
+ droid3-kexecboot-config,
+ firmware-ti-connectivity,
+ firmware-ti-bluetooth,
+ xserver-xorg-input-libinput,
+ xserver-xorg-video-omap (>= 0.5.0),
+ sgx-ddk-um-ti443x,
+ sgx-ddk-um-libs,
+ sgx-ddk-um-tools,
+ libegl-mesa0 (>= 21.2.5),
+ libegl1 (>= 1.3.4),
+ libgles1 (>= 1.3.4),
+ libgles2 (>= 1.3.4),
+ iio-sensor-proxy,
+ droid4-powermanagement,
+ droid4-wlanconfig,
+ droid4-battery-calibration,
+Description: Metapackage for installing hildon-desktop and its deps. Motorola Droid4.
+
 Package: hildon-meta-bionic
 Architecture: all
 Section: bionic
