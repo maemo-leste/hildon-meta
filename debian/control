@@ -73,7 +73,8 @@ Architecture: all
 Section: n900
 Depends:
  hildon-meta,
- linux-image-n900,
+ linux-image-omap,
+ hildon-kernel-config-n900
  leste-config-n900,
  firmware-ti-connectivity,
  xserver-xorg-video-pvrsgx,
@@ -112,7 +113,7 @@ Architecture: all
 Section: droid4
 Depends:
  hildon-meta,
- linux-image-droid4,
+ linux-image-omap,
  leste-config-mapphone,
  droid4-kexecboot-config,
  firmware-ti-connectivity,
@@ -137,7 +138,7 @@ Architecture: all
 Section: droid3
 Depends:
  hildon-meta,
- linux-image-droid4,
+ linux-image-omap,
  leste-config-mapphone,
  droid3-kexecboot-config,
  firmware-ti-connectivity,
@@ -162,7 +163,7 @@ Architecture: all
 Section: bionic
 Depends:
  hildon-meta,
- linux-image-droid4,
+ linux-image-omap,
  leste-config-mapphone,
  bionic-kexecboot-config,
  firmware-ti-connectivity,
