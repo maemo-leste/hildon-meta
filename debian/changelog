@@ -1,3 +1,9 @@
+hildon-meta (1.32) unstable; urgency=medium
+
+  * Fix Nokia N900 dependencies
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Thu, 06 Jan 2022 20:31:27 +0200
+
 hildon-meta (1.31) unstable; urgency=medium
 
   * Move Nokia N900 to new SGX DDK
