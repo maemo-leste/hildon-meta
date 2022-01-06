@@ -74,7 +74,7 @@ Section: n900
 Depends:
  hildon-meta,
  linux-image-omap,
- hildon-kernel-config-n900,
+ maemo-kernel-config-n900,
  leste-config-n900,
  firmware-ti-connectivity,
  xserver-xorg-video-omap (>= 0.5.0),
