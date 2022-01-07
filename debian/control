@@ -60,6 +60,8 @@ Depends:
  qalendar,
  desktop-file-utils,
  profilesx,
+ salutem,
+ charge-mode,
 Provides:
  hildon-desktop-rotation-support
 Conflicts:
