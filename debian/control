@@ -62,6 +62,7 @@ Depends:
  profilesx,
  salutem,
  charge-mode,
+ sphone,
 Provides:
  hildon-desktop-rotation-support
 Conflicts:
