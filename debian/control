@@ -200,7 +200,7 @@ Depends:
  linux-image-pine64,
  leste-config-pinephone,
  pine64-uboot,
- xserver-xorg-input-evdev,
+ xserver-xorg-input-libinput,
  iio-sensor-proxy,
  fbkeyboard,
 Description: Metapackage for installing hildon-desktop and its deps. Pinephone.
