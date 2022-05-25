@@ -54,6 +54,7 @@ Depends:
  osso-systemui-modechange,
  status-menu-applet-profiles,
  status-area-applet-battery,
+ maemo-statusmenu-volume,
  hildon-status-bar-usb,
  statusbar-alarm,
  osso-pdf-viewer,
