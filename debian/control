@@ -16,6 +16,8 @@ Depends:
  hildon-base,
  hildon-connectivity-base,
  hildon-connectivity-wlan,
+ hildon-connectivity-mobile,
+ hildon-connectivity-rtcom,
  maemo-launcher,
  mce,
  dsme,
