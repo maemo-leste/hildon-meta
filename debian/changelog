@@ -1,3 +1,9 @@
+hildon-meta (1.36) unstable; urgency=medium
+
+  * Add osso-addressbook
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Mon, 29 Aug 2022 13:00:30 +0200
+
 hildon-meta (1.35) unstable; urgency=medium
 
   * Add dependency on maemo-statusmenu-volume for everyone
