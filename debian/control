@@ -63,6 +63,7 @@ Depends:
  profilesx,
  salutem,
  charge-mode,
+ osso-addressbook,
 Provides:
  hildon-desktop-rotation-support
 Conflicts:
