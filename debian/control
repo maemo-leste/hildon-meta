@@ -66,6 +66,7 @@ Depends:
  salutem,
  charge-mode,
  osso-addressbook,
+ python-is-python2,
 Provides:
  hildon-desktop-rotation-support
 Conflicts:
