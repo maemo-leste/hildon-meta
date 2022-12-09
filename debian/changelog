@@ -1,3 +1,10 @@
+hildon-meta (2.0) unstable; urgency=medium
+
+  * Initial Chimaera package
+  * Add python-is-python2 dependency
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Fri, 09 Dec 2022 12:11:49 +0100
+
 hildon-meta (1.37) unstable; urgency=medium
 
   * Add hildon-connectivity-{mobile,rtcom}
