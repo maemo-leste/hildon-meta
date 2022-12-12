@@ -1,7 +1,7 @@
 Source: hildon-meta
 Section: misc
 Priority: important
-Maintainer: Ivan J. <parazyd@dyne.org>
+Maintainer: Merlijn Wajer <merlijn@wizzup.org>
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.3.0
 
@@ -11,6 +11,7 @@ Priority: important
 Essential: yes
 Depends:
  maemo-keyring,
+ python-is-python2,
  xserver-xorg,
  leste-config-common,
  hildon-base,
@@ -66,7 +67,6 @@ Depends:
  salutem,
  charge-mode,
  osso-addressbook,
- python-is-python2,
 Provides:
  hildon-desktop-rotation-support
 Conflicts:
