@@ -35,6 +35,7 @@ Depends:
  hildon-theme-alpha,
  ui-fonts,
  hildon-control-panel-personalisation,
+ hildon-application-manager,
  hildon-status-menu,
  hildon-plugins-notify-sv,
  maemo-input-sounds,
