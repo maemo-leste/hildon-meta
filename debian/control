@@ -67,6 +67,7 @@ Depends:
  salutem,
  charge-mode,
  osso-addressbook,
+ modest,
 Provides:
  hildon-desktop-rotation-support
 Conflicts:
