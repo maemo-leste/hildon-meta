@@ -212,6 +212,8 @@ Depends:
  xserver-xorg-input-libinput,
  iio-sensor-proxy,
  fbkeyboard,
+ firmware-ov5640,
+ linux-firmware-pine64-rtl8723-bt,
 Description: Metapackage for installing hildon-desktop and its deps. Pinephone.
 
 Package: hildon-meta-pinetab
