@@ -1,3 +1,9 @@
+hildon-meta (2.2) unstable; urgency=medium
+
+  * Add pinephone firmware packages
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Thu, 12 Jan 2023 00:45:48 +0100
+
 hildon-meta (2.1) unstable; urgency=medium
 
   * Add modest to the default meta package
