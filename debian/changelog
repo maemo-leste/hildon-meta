@@ -1,3 +1,9 @@
+hildon-meta (2.3) unstable; urgency=medium
+
+  * Add osso-abook-home-applet
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 14 Jan 2023 11:26:40 +0100
+
 hildon-meta (2.2) unstable; urgency=medium
 
   * Add pinephone firmware packages
