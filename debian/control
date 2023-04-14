@@ -69,6 +69,7 @@ Depends:
  osso-addressbook,
  osso-abook-home-applet,
  modest,
+ policykit-1-hildon,
 Provides:
  hildon-desktop-rotation-support
 Conflicts:
