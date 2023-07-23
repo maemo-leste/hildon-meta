@@ -70,6 +70,9 @@ Depends:
  osso-abook-home-applet,
  modest,
  policykit-1-hildon,
+ mafw-dbus-daemon,
+ mafw-playlist-daemon,
+ mafw-gst-renderer,
 Provides:
  hildon-desktop-rotation-support
 Conflicts:
