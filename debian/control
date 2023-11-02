@@ -73,6 +73,9 @@ Depends:
  mafw-dbus-daemon,
  mafw-playlist-daemon,
  mafw-gst-renderer,
+ mafw-iradio-source,
+ mafw-tracker-source,
+ openmediaplayer
 Provides:
  hildon-desktop-rotation-support
 Conflicts:
