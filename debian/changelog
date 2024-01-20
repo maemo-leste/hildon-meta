@@ -1,3 +1,9 @@
+hildon-meta (2.7) unstable; urgency=medium
+
+  * Add xt910/xt912 hildon-meta-* packages
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 20 Jan 2024 14:15:28 +0100
+
 hildon-meta (2.6) unstable; urgency=medium
 
   * Add mafw source packages and OMP
