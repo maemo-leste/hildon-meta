@@ -209,6 +209,60 @@ Depends:
  fbkeyboard,
 Description: Metapackage for installing hildon-desktop and its deps. Motorola Bionic.
 
+Package: hildon-meta-xt910
+Architecture: all
+Section: razr
+Depends:
+ hildon-meta,
+ linux-image-omap,
+ leste-config-mapphone,
+ maemo-kernel-config-mapphone,
+ xt910-kexecboot-config,
+ firmware-ti-connectivity,
+ firmware-ti-bluetooth,
+ xserver-xorg-input-libinput,
+ xserver-xorg-video-omap (>= 0.5.0),
+ sgx-ddk-um-ti443x,
+ sgx-ddk-um-libs,
+ sgx-ddk-um-tools,
+ libegl-mesa0 (>= 21.2.5),
+ libegl1 (>= 1.3.4),
+ libgles1 (>= 1.3.4),
+ libgles2 (>= 1.3.4),
+ iio-sensor-proxy,
+ droid4-powermanagement,
+ droid4-wlanconfig,
+ droid4-battery-calibration,
+ fbkeyboard,
+Description: Metapackage for installing hildon-desktop and its deps. Motorola Razr XT910
+
+Package: hildon-meta-xt912
+Architecture: all
+Section: razr
+Depends:
+ hildon-meta,
+ linux-image-omap,
+ leste-config-mapphone,
+ maemo-kernel-config-mapphone,
+ xt912-kexecboot-config,
+ firmware-ti-connectivity,
+ firmware-ti-bluetooth,
+ xserver-xorg-input-libinput,
+ xserver-xorg-video-omap (>= 0.5.0),
+ sgx-ddk-um-ti443x,
+ sgx-ddk-um-libs,
+ sgx-ddk-um-tools,
+ libegl-mesa0 (>= 21.2.5),
+ libegl1 (>= 1.3.4),
+ libgles1 (>= 1.3.4),
+ libgles2 (>= 1.3.4),
+ iio-sensor-proxy,
+ droid4-powermanagement,
+ droid4-wlanconfig,
+ droid4-battery-calibration,
+ fbkeyboard,
+Description: Metapackage for installing hildon-desktop and its deps. Motorola Razr XT912
+
 Package: hildon-meta-pinephone
 Architecture: all
 Section: pinephone
