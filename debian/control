@@ -58,7 +58,9 @@ Priority: important
 Essential: yes
 Depends:
  hildon-meta-core,
+ hildon-input-meta,
  hildon-connectivity-rtcom,
+ hildon-connectivity-location,
  hildon-application-manager,
  hildon-plugins-notify-sv,
  maemo-input-sounds,
