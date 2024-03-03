@@ -1,3 +1,9 @@
+hildon-meta (2.10) unstable; urgency=medium
+
+  * Slim down hildon-meta-core some more
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sun, 03 Mar 2024 22:02:36 +0100
+
 hildon-meta (2.9) unstable; urgency=medium
 
   * Split out hildon-meta into hildon-meta-core and hildon-meta
