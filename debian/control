@@ -5,7 +5,7 @@ Maintainer: Merlijn Wajer <merlijn@wizzup.org>
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.3.0
 
-Package: hildon-meta
+Package: hildon-meta-core
 Architecture: all
 Priority: important
 Essential: yes
@@ -18,7 +18,6 @@ Depends:
  hildon-connectivity-base,
  hildon-connectivity-wlan,
  hildon-connectivity-mobile,
- hildon-connectivity-rtcom,
  maemo-launcher,
  mce,
  dsme,
@@ -35,41 +34,50 @@ Depends:
  hildon-theme-alpha,
  ui-fonts,
  hildon-control-panel-personalisation,
- hildon-application-manager,
  hildon-status-menu,
- hildon-plugins-notify-sv,
- maemo-input-sounds,
  maemo-audio,
  libdevlock-bin,
  osso-af-startup,
  osso-af-utils,
+ osso-systemui,
+ osso-xterm,
+ osso-systemui-tklock,
+ osso-systemui-powerkeymenu,
+ osso-systemui-modechange,
+ status-area-applet-battery,
+ maemo-statusmenu-volume,
+ hildon-status-bar-usb,
+ desktop-file-utils,
+ charge-mode,
+ policykit-1-hildon,
+Description: Metapackage for installing hildon-desktop core and some of its dependencies.
+
+Package: hildon-meta
+Architecture: all
+Priority: important
+Essential: yes
+Depends:
+ hildon-meta-core,
+ hildon-connectivity-rtcom,
+ hildon-application-manager,
+ hildon-plugins-notify-sv,
+ maemo-input-sounds,
  applet-datetime,
  osso-applet-display,
  osso-applet-notificationlight,
  osso-applet-devicelock,
  osso-applet-cplanguageregional,
- osso-systemui,
- osso-xterm,
  osso-calculator,
- osso-systemui-tklock,
- osso-systemui-powerkeymenu,
  osso-systemui-alarm,
- osso-systemui-modechange,
  status-menu-applet-profiles,
- status-area-applet-battery,
- maemo-statusmenu-volume,
- hildon-status-bar-usb,
  statusbar-alarm,
  osso-pdf-viewer,
  qalendar,
- desktop-file-utils,
  profilesx,
  salutem,
- charge-mode,
  osso-addressbook,
  osso-abook-home-applet,
  modest,
- policykit-1-hildon,
  mafw-dbus-daemon,
  mafw-playlist-daemon,
  mafw-gst-renderer,
@@ -87,7 +95,7 @@ Package: hildon-meta-n900
 Architecture: all
 Section: n900
 Depends:
- hildon-meta,
+ hildon-meta | hildon-meta-core,
  linux-image-omap,
  maemo-kernel-config-n900,
  leste-config-n900,
@@ -110,7 +118,7 @@ Package: hildon-meta-n950
 Architecture: all
 Section: n950
 Depends:
- hildon-meta,
+ hildon-meta | hildon-meta-core,
  firmware-ti-connectivity,
  xserver-xorg-video-omap,
  xserver-xorg-input-evdev,
@@ -121,7 +129,7 @@ Package: hildon-meta-n9
 Architecture: all
 Section: n9
 Depends:
- hildon-meta,
+ hildon-meta | hildon-meta-core,
  firmware-ti-connectivity,
  xserver-xorg-video-omap,
  xserver-xorg-input-evdev,
@@ -133,7 +141,7 @@ Package: hildon-meta-droid4
 Architecture: all
 Section: droid4
 Depends:
- hildon-meta,
+ hildon-meta | hildon-meta-core,
  linux-image-omap,
  leste-config-mapphone,
  maemo-kernel-config-mapphone,
@@ -159,7 +167,7 @@ Package: hildon-meta-droid3
 Architecture: all
 Section: droid3
 Depends:
- hildon-meta,
+ hildon-meta | hildon-meta-core,
  linux-image-omap,
  leste-config-mapphone,
  maemo-kernel-config-mapphone,
@@ -185,7 +193,7 @@ Package: hildon-meta-bionic
 Architecture: all
 Section: bionic
 Depends:
- hildon-meta,
+ hildon-meta | hildon-meta-core,
  linux-image-omap,
  leste-config-mapphone,
  maemo-kernel-config-mapphone,
@@ -212,7 +220,7 @@ Package: hildon-meta-xt910
 Architecture: all
 Section: razr
 Depends:
- hildon-meta,
+ hildon-meta | hildon-meta-core,
  linux-image-omap,
  leste-config-mapphone,
  maemo-kernel-config-mapphone,
@@ -239,7 +247,7 @@ Package: hildon-meta-xt912
 Architecture: all
 Section: razr
 Depends:
- hildon-meta,
+ hildon-meta | hildon-meta-core,
  linux-image-omap,
  leste-config-mapphone,
  maemo-kernel-config-mapphone,
@@ -266,7 +274,7 @@ Package: hildon-meta-pinephone
 Architecture: all
 Section: pinephone
 Depends:
- hildon-meta,
+ hildon-meta | hildon-meta-core,
  linux-image-pine64,
  leste-config-pinephone,
  pine64-uboot,
@@ -281,7 +289,7 @@ Package: hildon-meta-pinetab
 Architecture: all
 Section: pinephone
 Depends:
- hildon-meta,
+ hildon-meta | hildon-meta-core,
  linux-image-pine64,
  leste-config-pinetab,
  xserver-xorg-input-evdev,
@@ -292,7 +300,8 @@ Package: hildon-meta-pocophone-f1
 Architecture: all
 Section: pocophone-f1
 Depends:
- hildon-meta,
+ hildon-meta | hildon-meta-core,
+ linux-image-pine64,
  leste-config-pocophone-f1,
  xserver-xorg-input-evdev,
  fbkeyboard,
@@ -303,5 +312,5 @@ Package: hildon-meta-raspberrypi
 Architecture: all
 Section: raspberrypi
 Depends:
- hildon-meta,
+ hildon-meta | hildon-meta-core,
 Description: Metapackage for installing hildon-desktop and its deps. Raspberry Pi 3.
