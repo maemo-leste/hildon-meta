@@ -23,8 +23,6 @@ Depends:
  dsme,
  upower,
  alarmd,
- clockd,
- clock-ui,
  ke-recv,
  gtk2-engines-pixbuf,
  hildon-desktop (>= 1:2.2.182),
@@ -35,7 +33,6 @@ Depends:
  ui-fonts,
  hildon-control-panel-personalisation,
  hildon-status-menu,
- maemo-audio,
  libdevlock-bin,
  osso-af-startup,
  osso-af-utils,
@@ -63,6 +60,7 @@ Depends:
  hildon-connectivity-location,
  hildon-application-manager,
  hildon-plugins-notify-sv,
+ maemo-audio,
  maemo-input-sounds,
  applet-datetime,
  osso-applet-display,
@@ -77,6 +75,8 @@ Depends:
  qalendar,
  profilesx,
  salutem,
+ clockd,
+ clock-ui,
  osso-addressbook,
  osso-abook-home-applet,
  modest,
@@ -84,7 +84,8 @@ Depends:
  mafw-playlist-daemon,
  mafw-gst-renderer,
  mafw-iradio-source,
- mafw-tracker-source
+ mafw-tracker-source,
+ x11-xserver-utils
 Provides:
  hildon-desktop-rotation-support
 Conflicts:
