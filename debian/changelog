@@ -1,3 +1,9 @@
+hildon-meta (2.12) unstable; urgency=medium
+
+  * Depend on specific mapphones explicitly
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Thu, 23 May 2024 13:05:33 +0200
+
 hildon-meta (2.11) unstable; urgency=medium
 
   * Add mz617 meta package
