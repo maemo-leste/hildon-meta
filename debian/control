@@ -80,6 +80,7 @@ Depends:
  osso-addressbook,
  osso-abook-home-applet,
  modest,
+ maemo-user-guide,
  mafw-dbus-daemon,
  mafw-playlist-daemon,
  mafw-gst-renderer,
