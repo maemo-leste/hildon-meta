@@ -1,3 +1,9 @@
+hildon-meta (2.14) unstable; urgency=medium
+
+  * Remove dependency on mafw-tracker-source temporarily
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Mon, 20 Jan 2025 11:19:07 +0100
+
 hildon-meta (2.13) unstable; urgency=medium
 
   * Add maemo-user-guide
