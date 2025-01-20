@@ -86,7 +86,6 @@ Depends:
  mafw-playlist-daemon,
  mafw-gst-renderer,
  mafw-iradio-source,
- mafw-tracker-source,
  x11-xserver-utils
 Provides:
  hildon-desktop-rotation-support
