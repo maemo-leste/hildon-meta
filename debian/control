@@ -13,6 +13,7 @@ Depends:
  maemo-keyring,
  python-is-python3,
  xserver-xorg,
+ x11-xserver-utils,
  leste-config-common,
  hildon-base,
  hildon-connectivity-base,
