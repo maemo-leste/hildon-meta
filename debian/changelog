@@ -1,3 +1,9 @@
+hildon-meta (2.13-1) unstable; urgency=medium
+
+  * Work on HAM integration
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 01 Feb 2025 13:50:38 +0100
+
 hildon-meta (2.13) unstable; urgency=medium
 
   * Add maemo-user-guide

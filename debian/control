@@ -6,6 +6,8 @@ Build-Depends: debhelper-compat (= 12)
 Standards-Version: 4.3.0
 
 Package: hildon-meta-core
+XB-Maemo-Display-Name: Maemo Leste Core Meta Package
+XB-Maemo-Flags: reboot, system-update
 Architecture: all
 Priority: important
 Essential: yes
@@ -50,6 +52,8 @@ Depends:
 Description: Metapackage for installing hildon-desktop core and some of its dependencies.
 
 Package: hildon-meta
+XB-Maemo-Display-Name: Maemo Leste Meta Package
+XB-Maemo-Flags: reboot, system-update
 Architecture: all
 Priority: important
 Essential: yes
