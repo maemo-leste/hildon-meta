@@ -1,5 +1,5 @@
 Source: hildon-meta
-Section: misc
+Section: user/system
 Priority: important
 Maintainer: Merlijn Wajer <merlijn@wizzup.org>
 Build-Depends: debhelper-compat (= 12)
