@@ -1,5 +1,5 @@
 Source: hildon-meta
-Section: user/system
+Section: metapackages
 Priority: important
 Maintainer: Merlijn Wajer <merlijn@wizzup.org>
 Build-Depends: debhelper-compat (= 12)
@@ -51,6 +51,7 @@ Depends:
 Description: Metapackage for installing hildon-desktop core and some of its dependencies.
 
 Package: hildon-meta
+Section: user/system
 XB-Maemo-Display-Name: Maemo Leste Meta Package
 XB-Maemo-Flags: reboot, system-update
 Architecture: all
