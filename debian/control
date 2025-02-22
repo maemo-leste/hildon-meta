@@ -7,7 +7,6 @@ Standards-Version: 4.3.0
 
 Package: hildon-meta-core
 XB-Maemo-Display-Name: Maemo Leste Core Meta Package
-XB-Maemo-Flags: reboot, system-update
 Architecture: all
 Priority: important
 Essential: yes
@@ -62,7 +61,8 @@ Depends:
  hildon-input-meta,
  hildon-connectivity-rtcom,
  hildon-connectivity-location,
- hildon-application-manager,
+ hildon-application-manager (>= 2.4.9),
+ hildon-application-manager-settings-standard (>= 31),
  hildon-plugins-notify-sv,
  maemo-audio,
  maemo-input-sounds,
