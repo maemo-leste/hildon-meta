@@ -92,7 +92,7 @@ Depends:
  mafw-iradio-source,
  mafw-tracker-source,
  x11-xserver-utils,
- gconf2 (= 3.2.6-8+3m7)
+ gconf2 (>= 3.2.6-8+3m7)
 Provides:
  hildon-desktop-rotation-support
 Conflicts:
