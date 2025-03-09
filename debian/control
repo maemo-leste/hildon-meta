@@ -12,7 +12,7 @@ Architecture: all
 Priority: important
 Essential: yes
 Depends:
- hildon-meta-core,
+ hildon-meta-core (>= 2.15),
  hildon-input-meta,
  hildon-connectivity-rtcom,
  hildon-connectivity-location,
