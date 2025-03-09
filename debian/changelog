@@ -1,3 +1,9 @@
+hildon-meta (2.16.1) unstable; urgency=medium
+
+  * initial daedalus version
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Sun, 09 Mar 2025 20:27:34 +0200
+
 hildon-meta (2.13.8) unstable; urgency=medium
 
   * Work on HAM integration
