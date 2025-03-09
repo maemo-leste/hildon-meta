@@ -12,11 +12,11 @@ Architecture: all
 Priority: important
 Essential: yes
 Depends:
- hildon-meta-core (>= 2.15),
+ hildon-meta-core (>= 2.16),
  hildon-input-meta,
  hildon-connectivity-rtcom,
  hildon-connectivity-location,
- hildon-application-manager-settings-standard (>= 32),
+ hildon-application-manager-settings-standard (>= 42),
  hildon-application-manager (>= 2.4.10),
  hildon-plugins-notify-sv,
  maemo-audio,
@@ -46,7 +46,7 @@ Depends:
  mafw-iradio-source,
  mafw-tracker-source,
  x11-xserver-utils,
- gconf2 (>= 3.2.6-8+3m7)
+ gconf2 (>= 3.2.6-8+4m7)
 Provides:
  hildon-desktop-rotation-support
 Conflicts:
